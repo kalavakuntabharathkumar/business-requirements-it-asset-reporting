@@ -1,0 +1,11 @@
+asset_id,asset_type,department,owner,location,purchase_date,last_seen,asset_status,criticality,cost
+AST-00001,Laptop,Engineering,User 1,Bengaluru,2023-02-10,2026-10-12,In Use,High,78000
+AST-00002,Monitor,Finance,User 2,Hyderabad,2022-11-05,2026-10-11,In Use,Medium,18000
+AST-00003,Mobile,Sales,User 3,Chennai,2024-06-21,2026-08-10,In Use,High,42000
+AST-00004,Server,IT Operations,User 4,Bengaluru,2021-04-15,2026-10-13,In Use,Critical,250000
+AST-00005,Laptop,Human Resources,User 5,Pune,2020-09-18,2026-06-01,Under Repair,Medium,62000
+AST-00006,Tablet,Sales,User 6,Hyderabad,2024-01-09,2026-10-08,In Use,Low,28000
+AST-00007,Laptop,Engineering,User 7,Chennai,2022-07-14,2026-09-30,In Use,High,74000
+AST-00008,Printer,Finance,User 8,Pune,2021-12-02,2026-07-15,In Use,Low,22000
+AST-00009,Server,IT Operations,User 9,Bengaluru,2022-03-12,2026-10-14,In Use,Critical,310000
+AST-00010,Mobile,Marketing,User 10,Hyderabad,2025-02-20,2026-10-12,In Use,Medium,39000

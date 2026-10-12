@@ -1,0 +1,7 @@
+REQ-ID,Stakeholder Group,Requirement,Acceptance Criteria,Priority,Status,Test Evidence
+BR-001,IT Operations,Track assets by type and department,Dashboard supports both slicers,High,Approved,UAT-01
+BR-002,Finance,Report total asset cost,Total cost reconciles to source sum,High,Approved,UAT-02
+BR-003,Security,Identify stale assets,Assets not seen for 30+ days are flagged,High,Approved,UAT-03
+BR-004,Procurement,Show lifecycle status,Status counts reconcile to source,Medium,Approved,UAT-04
+BR-005,Department Leads,Filter by location,Location slicer filters all visuals,Medium,Approved,UAT-05
+BR-006,Service Desk,Track refresh freshness,Latest refresh date is visible,Medium,Approved,UAT-06

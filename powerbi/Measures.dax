@@ -1,0 +1,32 @@
+Total Assets =
+DISTINCTCOUNT(Assets[asset_id])
+
+Total Asset Cost =
+SUM(Assets[cost])
+
+In-Use Assets =
+CALCULATE(
+    [Total Assets],
+    Assets[asset_status] = "In Use"
+)
+
+Stale Assets =
+CALCULATE(
+    [Total Assets],
+    Assets[is_stale] = TRUE()
+)
+
+Stale Asset % =
+DIVIDE([Stale Assets], [Total Assets], 0)
+
+Average Asset Age (Days) =
+AVERAGEX(
+    Assets,
+    DATEDIFF(Assets[purchase_date], TODAY(), DAY)
+)
+
+Last Seen Date =
+MAX(Assets[last_seen])
+
+Refresh Date =
+TODAY()
